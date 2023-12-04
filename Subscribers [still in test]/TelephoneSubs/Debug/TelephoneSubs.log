@@ -1,0 +1,3 @@
+﻿  TelephoneSubs.cpp
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(114,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TelephoneSubs.vcxproj -> C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\Debug\TelephoneSubs.exe

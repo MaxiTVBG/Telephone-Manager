@@ -1,0 +1,4 @@
+﻿  TelephoneSubs.cpp
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(32,28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(338,29): warning C4129: 'P': unrecognized character escape sequence
+  TelephoneSubs.vcxproj -> C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\x64\Debug\TelephoneSubs.exe
