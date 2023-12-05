@@ -1,6 +1,7 @@
 #include <iostream>
 #include <random>
 #include <time.h>
+#include <iomanip>
 #include <string>
 #include <fstream>
 
@@ -24,8 +25,7 @@ void addSubs(Subscribers* Abonati, int& existingSubscribers)
 {
     int n;
     cout << "Choose how many subs you want to add: ";
-    cin >> n;
-    if ((n + existingSubscribers) <= MAX_SUBSCRIBERS)
+    if (cin >> n && (n + existingSubscribers) <= MAX_SUBSCRIBERS)
         for (int i = 0; i < n; i++) {
             cout << "Please choose name of the " << i + 1 << " subscriber: ";
             cin >> Abonati[existingSubscribers].subscriberName;
@@ -35,14 +35,26 @@ void addSubs(Subscribers* Abonati, int& existingSubscribers)
 
             Abonati[existingSubscribers].contractNumber = "BG" + to_string(mt() % 999999);
 
+            uniform_real_distribution<float> one_y_min(2.3, 5.6);
+            float one_year_perMin = one_y_min(mt) + 0.01;
+            uniform_real_distribution<float> one_y_mth(30.5, 40.8);
+            float one_year_perMth = one_y_mth(mt) + 0.01;
+            uniform_real_distribution<float> two_y_min(1.3, 4.6);
+            float two_year_perMin = two_y_min(mt);
+            uniform_real_distribution<float> two_y_mth(20.5, 34.2);
+            float two_year_perMth = two_y_mth(mt);
 
+            
             cout << "Here are the prices for 1 and 2 years contracts:"
                  << "\n------------------------------------"
-                 << "\n1 YEAR\nPrice on call per min S3.5 BGN\nPrice per month : 35 BGN"
+                 << fixed << setprecision(1)
+                 << "\n1 YEAR\nPrice on call per min: " << one_year_perMin << " BGN\nPrice per month : " << one_year_perMth << " BGN"
                  << "\n------------------------------------"
-                 << "\n2 YEARS\nPrice on call per min: 1.25 BGN\nPrice per month: 26 BGN"
+                 << "\n2 YEARS\nPrice on call per min: " << two_year_perMin << " BGN\nPrice per month: " << two_year_perMth << " BGN"
                  << "\n------------------------------------"
                  << "\nNow, please choose your plan : ";
+
+
 
             while (true)
             {
@@ -51,13 +63,13 @@ void addSubs(Subscribers* Abonati, int& existingSubscribers)
                     switch (Abonati[existingSubscribers].contractPeriod)
                     {
                     case 1:
-                        Abonati[existingSubscribers].pricePerMin = 3.5;
-                        Abonati[existingSubscribers].monthlyPrice = 35;
+                        Abonati[existingSubscribers].pricePerMin = one_year_perMin;
+                        Abonati[existingSubscribers].monthlyPrice = one_year_perMth;
                         cout << "Your plan is now set to period of [1 YEAR/S]" << endl;
                         break;
                     case 2:
-                        Abonati[existingSubscribers].pricePerMin = 1.25;
-                        Abonati[existingSubscribers].monthlyPrice = 26;
+                        Abonati[existingSubscribers].pricePerMin = two_year_perMin;
+                        Abonati[existingSubscribers].monthlyPrice = two_year_perMth;
                         cout << "Your plan is now set to period of [2 YEAR/S]" << endl;
                         break;
                     default:
@@ -82,7 +94,7 @@ void addSubs(Subscribers* Abonati, int& existingSubscribers)
             existingSubscribers++;
         }
     else
-        cout << "You can go only up to 30 subscribers!" << endl;
+        cout << "Wrong Input or reached max subscribers!" << endl;
 }
 
 void showSubs(Subscribers* Abonati, int& existingSubscribers)
@@ -142,9 +154,10 @@ void findSubsByHighRate(Subscribers* Abonati, int& existingSubscribers)
     }
     for (int k = 0; k < 3; k++)
     {
+        cout << endl << "-------------------" << endl;
+        cout << "Name: " << Abonati[k].subscriberName << endl;
+        cout << "Price per Min: " << Abonati[k].pricePerMin << " BGN." << endl;
         cout << "-------------------" << endl;
-        cout << Abonati[k].subscriberName << endl;
-        cout << Abonati[k].pricePerMin << endl;
     }
 }
 
@@ -188,7 +201,9 @@ void fileOutText(Subscribers* Abonati, int& existingSubscribers)
                 for (int k = 0; k < MAX_CALLS_FOR_EACH; k++)
                 {
                     if (!(Abonati[i].callHistory[k] == 0))
-                        outFile << "Time of Call Number: <" << k + 1 << "> : " << Abonati[i].callHistory[k] << " sec's." << "\n------------------------------" << endl;
+                        outFile << "Time of Call Number: <" << k + 1 << "> : " 
+                        << Abonati[i].callHistory[k] << " sec's." 
+                        << "\n------------------------------" << endl;
                     else
                     {
                         break;
@@ -213,7 +228,24 @@ void fileOut(Subscribers* Abonati, int& existingSubscribers)
 
     for (int i = 0; i < existingSubscribers; i++)
     {
-        outFileBin.write(reinterpret_cast<const char*>(&Abonati[i]), sizeof(Subscribers));
+        // Write the size of the string, followed by the string data
+        int nameSize = Abonati[i].subscriberName.size();
+        outFileBin.write(reinterpret_cast<const char*>(&nameSize), sizeof(int));
+        outFileBin.write(Abonati[i].subscriberName.c_str(), nameSize);
+
+        int contractNumberSize = Abonati[i].contractNumber.size();
+        outFileBin.write(reinterpret_cast<const char*>(&contractNumberSize), sizeof(int));
+        outFileBin.write(Abonati[i].contractNumber.c_str(), contractNumberSize);
+
+        int phoneNumberSize = Abonati[i].phoneNumber.size();
+        outFileBin.write(reinterpret_cast<const char*>(&phoneNumberSize), sizeof(int));
+        outFileBin.write(Abonati[i].phoneNumber.c_str(), phoneNumberSize);
+
+        // Write the remaining non-string data
+        outFileBin.write(reinterpret_cast<const char*>(&Abonati[i].contractPeriod), sizeof(int));
+        outFileBin.write(reinterpret_cast<const char*>(&Abonati[i].pricePerMin), sizeof(float));
+        outFileBin.write(reinterpret_cast<const char*>(&Abonati[i].monthlyPrice), sizeof(float));
+        outFileBin.write(reinterpret_cast<const char*>(Abonati[i].callHistory), sizeof(int) * MAX_CALLS_FOR_EACH);
     }
 
     outFileBin.close();
@@ -225,15 +257,37 @@ void fileIn(Subscribers* Abonati, int& existingSubscribers)
 {
     ifstream inFile("outfile.bin", ios::in | ios::binary);
 
-    if (!inFile.is_open()) {
+    if (!inFile.is_open())
+    {
         cerr << "Error opening file for reading.\n";
         return;
     }
 
     existingSubscribers = 0;
 
-    while (inFile.peek() != EOF && existingSubscribers < MAX_SUBSCRIBERS) {
-        inFile.read(reinterpret_cast<char*>(&Abonati[existingSubscribers]), sizeof(Subscribers));
+    while (inFile.peek() != EOF && existingSubscribers < MAX_SUBSCRIBERS)
+    {
+        int nameSize, contractNumberSize, phoneNumberSize;
+
+        // Read the size of the string, then read the string data
+        inFile.read(reinterpret_cast<char*>(&nameSize), sizeof(int));
+        Abonati[existingSubscribers].subscriberName.resize(nameSize);
+        inFile.read(&Abonati[existingSubscribers].subscriberName[0], nameSize);
+
+        inFile.read(reinterpret_cast<char*>(&contractNumberSize), sizeof(int));
+        Abonati[existingSubscribers].contractNumber.resize(contractNumberSize);
+        inFile.read(&Abonati[existingSubscribers].contractNumber[0], contractNumberSize);
+
+        inFile.read(reinterpret_cast<char*>(&phoneNumberSize), sizeof(int));
+        Abonati[existingSubscribers].phoneNumber.resize(phoneNumberSize);
+        inFile.read(&Abonati[existingSubscribers].phoneNumber[0], phoneNumberSize);
+
+        // Read the remaining non-string data
+        inFile.read(reinterpret_cast<char*>(&Abonati[existingSubscribers].contractPeriod), sizeof(int));
+        inFile.read(reinterpret_cast<char*>(&Abonati[existingSubscribers].pricePerMin), sizeof(float));
+        inFile.read(reinterpret_cast<char*>(&Abonati[existingSubscribers].monthlyPrice), sizeof(float));
+        inFile.read(reinterpret_cast<char*>(Abonati[existingSubscribers].callHistory), sizeof(int) * MAX_CALLS_FOR_EACH);
+
         existingSubscribers++;
     }
 
@@ -241,25 +295,23 @@ void fileIn(Subscribers* Abonati, int& existingSubscribers)
     cout << "Done!" << endl;
 }
 
-
 int main()
 {
     Subscribers Abonati[MAX_SUBSCRIBERS];
     int choice;
-    int existingSubscribers = 0;
+    int existingSubscribers = 0;    
 
     while (true)
     {
-        cout << "--------------------------------------" << endl;
-        cout << "Welcome to Telephone Subscribers" << endl;
-        cout << "1. Add Subscriber" << endl;
-        cout << "2. Show all subscribers" << endl;
-        cout << "3. Find subscriber." << endl;
-        cout << "4. Sort subscribers." << endl;
-        cout << "5. Manage file." << endl;
-        cout << "6. More." << endl;
-        cout << "--------------------------------------" << endl;
-        cout << "Please choose: ";
+        cout << "--------------------------------------\n"
+            << "Welcome to Telephone Subscribers\n"
+            << "1. Add Subscriber.\n"
+            << "2. Show all subscribers.\n"
+            << "3. Find subscriber.\n"
+            << "4. Sort subscribers.\n"
+            << "5. Manage file.\n"
+            << "6. More.\n\n"
+            << "Please choose: ";
 
         if (cin >> choice)
         {
@@ -276,12 +328,12 @@ int main()
                 {
 
                 int choice2;
-                cout << endl << "--------------------------------" << endl;
-                cout << "Here's 2 options:" << endl;
-                cout << "1. Search by Phone Number." << endl;
-                cout << "2. Search by highest tax per min." << endl;
-                cout << "--------------------------------" << endl;
-                cout << "Please choose: ";
+                cout << "\n---------------------------------"
+                     << "\nHere's 3 options:"
+                     << "\n1. Search by Phone Number."
+                     << "\n2. Search by highest tax per min."
+                     << "\n3. Return."
+                     << "\nPlease choose: ";
 
                 if (cin >> choice2)
                 {
@@ -293,6 +345,8 @@ int main()
                     case 2:
                         findSubsByHighRate(Abonati, existingSubscribers);
                         break;
+                    case 3:
+                        main();
                     default:
                         cout << "\nSomething went wrong!\nPlease try again!" << endl;
                         cin.clear();
@@ -335,7 +389,7 @@ int main()
                 {
                     cin.clear();
                     cin.ignore();
-                    cout << "Wrong Input!\Please try again: ";
+                    cout << "Wrong Input!\nPlease try again: ";
                 }
                 break;
             case 6:
