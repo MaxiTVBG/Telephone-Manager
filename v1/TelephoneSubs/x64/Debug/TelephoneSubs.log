@@ -1,0 +1,41 @@
+﻿  TelephoneSubs.cpp
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(34,28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(38,61): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(38,56): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(39,35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(40,62): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(41,35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(42,61): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(42,56): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(44,62): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(238,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(242,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(246,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(355,10): warning C4101: 'foundAny': unreferenced local variable
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(397,10): warning C4101: 'foundAny': unreferenced local variable
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(467,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TelephoneSubs.vcxproj -> C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\x64\Debug\TelephoneSubs.exe
