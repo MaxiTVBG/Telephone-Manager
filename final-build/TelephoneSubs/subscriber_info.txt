@@ -1,0 +1,42 @@
+Existing subscribers: 5
+
+Subscriber Name: Rick
+Contract Number: BG503665
+Phone Number: 0868235224
+Contract Period: 1 YEAR/S.
+Price Per Min Call: 0.566197 BGN.
+Monthly Price: 40.6866 BGN.
+HAS NO CALL HISTORY YET.
+
+Subscriber Name: John
+Contract Number: BG380240
+Phone Number: 0813695133
+Contract Period: 2 YEAR/S.
+Price Per Min Call: 0.338859 BGN.
+Monthly Price: 24.0775 BGN.
+HAS NO CALL HISTORY YET.
+
+Subscriber Name: Anna
+Contract Number: BG836671
+Phone Number: 0877744333
+Contract Period: 1 YEAR/S.
+Price Per Min Call: 0.445682 BGN.
+Monthly Price: 40.3116 BGN.
+HAS NO CALL HISTORY YET.
+
+Subscriber Name: Donna
+Contract Number: BG151159
+Phone Number: 0817969645
+Contract Period: 1 YEAR/S.
+Price Per Min Call: 0.641998 BGN.
+Monthly Price: 34.459 BGN.
+HAS NO CALL HISTORY YET.
+
+Subscriber Name: Steph
+Contract Number: BG198308
+Phone Number: 0819467551
+Contract Period: 2 YEAR/S.
+Price Per Min Call: 0.354139 BGN.
+Monthly Price: 21.9463 BGN.
+HAS NO CALL HISTORY YET.
+
