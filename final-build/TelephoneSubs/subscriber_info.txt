@@ -1,0 +1,362 @@
+Existing subscribers: 6
+
+Subscriber Name: Toi
+Contract Number: BG247142
+Phone Number: 0872994869
+Contract Period: 2 YEAR/S.
+Price Per Min Call: 0.189609 BGN.
+Monthly Price: 24.8164 BGN.
+Calls: 
+Time of Call Number: <1> : 3357 sec's.
+------------------------------
+Time of Call Number: <2> : 3552 sec's.
+------------------------------
+Time of Call Number: <3> : 433 sec's.
+------------------------------
+
+Subscriber Name: Az
+Contract Number: BG290847
+Phone Number: 0861915833
+Contract Period: 2 YEAR/S.
+Price Per Min Call: 0.146531 BGN.
+Monthly Price: 25.4459 BGN.
+Calls: 
+Time of Call Number: <1> : 2085 sec's.
+------------------------------
+Time of Call Number: <2> : 2683 sec's.
+------------------------------
+Time of Call Number: <3> : 934 sec's.
+------------------------------
+Time of Call Number: <4> : 856 sec's.
+------------------------------
+Time of Call Number: <5> : 2387 sec's.
+------------------------------
+Time of Call Number: <6> : 3337 sec's.
+------------------------------
+Time of Call Number: <7> : 1663 sec's.
+------------------------------
+Time of Call Number: <8> : 474 sec's.
+------------------------------
+Time of Call Number: <9> : 2895 sec's.
+------------------------------
+Time of Call Number: <10> : 438 sec's.
+------------------------------
+Time of Call Number: <11> : 3380 sec's.
+------------------------------
+Time of Call Number: <12> : 1701 sec's.
+------------------------------
+Time of Call Number: <13> : 1917 sec's.
+------------------------------
+Time of Call Number: <14> : 3103 sec's.
+------------------------------
+Time of Call Number: <15> : 3514 sec's.
+------------------------------
+Time of Call Number: <16> : 2715 sec's.
+------------------------------
+Time of Call Number: <17> : 1835 sec's.
+------------------------------
+Time of Call Number: <18> : 229 sec's.
+------------------------------
+Time of Call Number: <19> : 2110 sec's.
+------------------------------
+Time of Call Number: <20> : 865 sec's.
+------------------------------
+Time of Call Number: <21> : 3091 sec's.
+------------------------------
+Time of Call Number: <22> : 1884 sec's.
+------------------------------
+Time of Call Number: <23> : 1598 sec's.
+------------------------------
+Time of Call Number: <24> : 2547 sec's.
+------------------------------
+Time of Call Number: <25> : 3234 sec's.
+------------------------------
+Time of Call Number: <26> : 2296 sec's.
+------------------------------
+Time of Call Number: <27> : 2928 sec's.
+------------------------------
+Time of Call Number: <28> : 901 sec's.
+------------------------------
+Time of Call Number: <29> : 3049 sec's.
+------------------------------
+
+Subscriber Name: Ti
+Contract Number: BG674180
+Phone Number: 0834151035
+Contract Period: 1 YEAR/S.
+Price Per Min Call: 0.276379 BGN.
+Monthly Price: 32.2449 BGN.
+Calls: 
+Time of Call Number: <1> : 1308 sec's.
+------------------------------
+Time of Call Number: <2> : 2922 sec's.
+------------------------------
+Time of Call Number: <3> : 691 sec's.
+------------------------------
+Time of Call Number: <4> : 568 sec's.
+------------------------------
+Time of Call Number: <5> : 747 sec's.
+------------------------------
+Time of Call Number: <6> : 2436 sec's.
+------------------------------
+Time of Call Number: <7> : 948 sec's.
+------------------------------
+Time of Call Number: <8> : 2972 sec's.
+------------------------------
+Time of Call Number: <9> : 1395 sec's.
+------------------------------
+Time of Call Number: <10> : 1574 sec's.
+------------------------------
+Time of Call Number: <11> : 2586 sec's.
+------------------------------
+Time of Call Number: <12> : 832 sec's.
+------------------------------
+Time of Call Number: <13> : 36 sec's.
+------------------------------
+Time of Call Number: <14> : 3002 sec's.
+------------------------------
+Time of Call Number: <15> : 263 sec's.
+------------------------------
+Time of Call Number: <16> : 1435 sec's.
+------------------------------
+Time of Call Number: <17> : 1223 sec's.
+------------------------------
+Time of Call Number: <18> : 2370 sec's.
+------------------------------
+Time of Call Number: <19> : 3132 sec's.
+------------------------------
+Time of Call Number: <20> : 491 sec's.
+------------------------------
+Time of Call Number: <21> : 928 sec's.
+------------------------------
+Time of Call Number: <22> : 2221 sec's.
+------------------------------
+Time of Call Number: <23> : 1030 sec's.
+------------------------------
+Time of Call Number: <24> : 2793 sec's.
+------------------------------
+Time of Call Number: <25> : 1319 sec's.
+------------------------------
+Time of Call Number: <26> : 2217 sec's.
+------------------------------
+Time of Call Number: <27> : 3118 sec's.
+------------------------------
+Time of Call Number: <28> : 1410 sec's.
+------------------------------
+Time of Call Number: <29> : 40 sec's.
+------------------------------
+Time of Call Number: <30> : 3110 sec's.
+------------------------------
+Time of Call Number: <31> : 682 sec's.
+------------------------------
+Time of Call Number: <32> : 1153 sec's.
+------------------------------
+Time of Call Number: <33> : 415 sec's.
+------------------------------
+Time of Call Number: <34> : 213 sec's.
+------------------------------
+Time of Call Number: <35> : 1593 sec's.
+------------------------------
+Time of Call Number: <36> : 3293 sec's.
+------------------------------
+Time of Call Number: <37> : 597 sec's.
+------------------------------
+Time of Call Number: <38> : 1192 sec's.
+------------------------------
+Time of Call Number: <39> : 335 sec's.
+------------------------------
+Time of Call Number: <40> : 702 sec's.
+------------------------------
+Time of Call Number: <41> : 2626 sec's.
+------------------------------
+Time of Call Number: <42> : 1446 sec's.
+------------------------------
+Time of Call Number: <43> : 1787 sec's.
+------------------------------
+Time of Call Number: <44> : 3466 sec's.
+------------------------------
+Time of Call Number: <45> : 398 sec's.
+------------------------------
+Time of Call Number: <46> : 1897 sec's.
+------------------------------
+Time of Call Number: <47> : 85 sec's.
+------------------------------
+Time of Call Number: <48> : 3257 sec's.
+------------------------------
+Time of Call Number: <49> : 3503 sec's.
+------------------------------
+Time of Call Number: <50> : 3347 sec's.
+------------------------------
+Time of Call Number: <51> : 507 sec's.
+------------------------------
+Time of Call Number: <52> : 2157 sec's.
+------------------------------
+Time of Call Number: <53> : 2855 sec's.
+------------------------------
+Time of Call Number: <54> : 1732 sec's.
+------------------------------
+Time of Call Number: <55> : 2246 sec's.
+------------------------------
+Time of Call Number: <56> : 198 sec's.
+------------------------------
+Time of Call Number: <57> : 1582 sec's.
+------------------------------
+Time of Call Number: <58> : 3587 sec's.
+------------------------------
+
+Subscriber Name: Vie
+Contract Number: BG603894
+Phone Number: 0849248745
+Contract Period: 2 YEAR/S.
+Price Per Min Call: 0.174822 BGN.
+Monthly Price: 33.4188 BGN.
+Calls: 
+Time of Call Number: <1> : 2178 sec's.
+------------------------------
+Time of Call Number: <2> : 2828 sec's.
+------------------------------
+Time of Call Number: <3> : 2688 sec's.
+------------------------------
+Time of Call Number: <4> : 1023 sec's.
+------------------------------
+Time of Call Number: <5> : 594 sec's.
+------------------------------
+Time of Call Number: <6> : 1513 sec's.
+------------------------------
+Time of Call Number: <7> : 3330 sec's.
+------------------------------
+Time of Call Number: <8> : 3015 sec's.
+------------------------------
+Time of Call Number: <9> : 1206 sec's.
+------------------------------
+Time of Call Number: <10> : 2976 sec's.
+------------------------------
+Time of Call Number: <11> : 1042 sec's.
+------------------------------
+
+Subscriber Name: Nie
+Contract Number: BG457295
+Phone Number: 0876725869
+Contract Period: 1 YEAR/S.
+Price Per Min Call: 0.196808 BGN.
+Monthly Price: 35.6483 BGN.
+Calls: 
+Time of Call Number: <1> : 2157 sec's.
+------------------------------
+Time of Call Number: <2> : 777 sec's.
+------------------------------
+Time of Call Number: <3> : 356 sec's.
+------------------------------
+Time of Call Number: <4> : 2435 sec's.
+------------------------------
+Time of Call Number: <5> : 542 sec's.
+------------------------------
+Time of Call Number: <6> : 1928 sec's.
+------------------------------
+Time of Call Number: <7> : 762 sec's.
+------------------------------
+Time of Call Number: <8> : 594 sec's.
+------------------------------
+Time of Call Number: <9> : 788 sec's.
+------------------------------
+Time of Call Number: <10> : 273 sec's.
+------------------------------
+
+Subscriber Name: Condyooooo
+Contract Number: BG940500
+Phone Number: 0899204495
+Contract Period: 2 YEAR/S.
+Price Per Min Call: 0.130752 BGN.
+Monthly Price: 23.8881 BGN.
+Calls: 
+Time of Call Number: <1> : 1621 sec's.
+------------------------------
+Time of Call Number: <2> : 1544 sec's.
+------------------------------
+Time of Call Number: <3> : 216 sec's.
+------------------------------
+Time of Call Number: <4> : 1252 sec's.
+------------------------------
+Time of Call Number: <5> : 2129 sec's.
+------------------------------
+Time of Call Number: <6> : 1232 sec's.
+------------------------------
+Time of Call Number: <7> : 285 sec's.
+------------------------------
+Time of Call Number: <8> : 3062 sec's.
+------------------------------
+Time of Call Number: <9> : 514 sec's.
+------------------------------
+Time of Call Number: <10> : 573 sec's.
+------------------------------
+Time of Call Number: <11> : 288 sec's.
+------------------------------
+Time of Call Number: <12> : 1219 sec's.
+------------------------------
+Time of Call Number: <13> : 711 sec's.
+------------------------------
+Time of Call Number: <14> : 3395 sec's.
+------------------------------
+Time of Call Number: <15> : 1132 sec's.
+------------------------------
+Time of Call Number: <16> : 205 sec's.
+------------------------------
+Time of Call Number: <17> : 405 sec's.
+------------------------------
+Time of Call Number: <18> : 1688 sec's.
+------------------------------
+Time of Call Number: <19> : 940 sec's.
+------------------------------
+Time of Call Number: <20> : 2792 sec's.
+------------------------------
+Time of Call Number: <21> : 2098 sec's.
+------------------------------
+Time of Call Number: <22> : 1377 sec's.
+------------------------------
+Time of Call Number: <23> : 1233 sec's.
+------------------------------
+Time of Call Number: <24> : 1441 sec's.
+------------------------------
+Time of Call Number: <25> : 1787 sec's.
+------------------------------
+Time of Call Number: <26> : 2775 sec's.
+------------------------------
+Time of Call Number: <27> : 1596 sec's.
+------------------------------
+Time of Call Number: <28> : 667 sec's.
+------------------------------
+Time of Call Number: <29> : 1095 sec's.
+------------------------------
+Time of Call Number: <30> : 472 sec's.
+------------------------------
+Time of Call Number: <31> : 2632 sec's.
+------------------------------
+Time of Call Number: <32> : 3211 sec's.
+------------------------------
+Time of Call Number: <33> : 86 sec's.
+------------------------------
+Time of Call Number: <34> : 803 sec's.
+------------------------------
+Time of Call Number: <35> : 304 sec's.
+------------------------------
+Time of Call Number: <36> : 1639 sec's.
+------------------------------
+Time of Call Number: <37> : 2032 sec's.
+------------------------------
+Time of Call Number: <38> : 3535 sec's.
+------------------------------
+Time of Call Number: <39> : 2573 sec's.
+------------------------------
+Time of Call Number: <40> : 3065 sec's.
+------------------------------
+Time of Call Number: <41> : 517 sec's.
+------------------------------
+Time of Call Number: <42> : 3146 sec's.
+------------------------------
+Time of Call Number: <43> : 1901 sec's.
+------------------------------
+Time of Call Number: <44> : 2091 sec's.
+------------------------------
+Time of Call Number: <45> : 2674 sec's.
+------------------------------
+
