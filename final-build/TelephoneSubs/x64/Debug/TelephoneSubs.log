@@ -1,0 +1,9 @@
+﻿  TelephoneSubs.cpp
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(71,9): warning C4101: 'forth_choice': unreferenced local variable
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(157,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(570,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(574,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(578,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(877,28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\TelephoneSubs.cpp(902,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TelephoneSubs.vcxproj -> C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\x64\Debug\TelephoneSubs.exe
