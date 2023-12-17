@@ -1,2 +1,0 @@
-C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\x64\Debug\TelephoneSubs.exe.lastcodeanalysissucceeded
-C:\Users\Svetl\OneDrive\Desktop\TelephoneSubs\TelephoneSubs\x64\Debug\NativeCodeAnalysis.read.1.tlog
