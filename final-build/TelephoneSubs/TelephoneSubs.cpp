@@ -425,14 +425,24 @@ void search_by_highest_min_tax(Subscribers* Abonati, int& existingSubscribers)
 
     Subscribers CopyOfAbonati[MAX_SUBSCRIBERS];
 
+
         for (int i = 0; i < existingSubscribers - 1; ++i)
         {
+            bool any_swapped = 0;
+
             for (int j = 0; j < existingSubscribers - i - 1; ++j)
             {
                 if (Abonati[j].pricePerMin < Abonati[j + 1].pricePerMin)
                 {
                     swap(Abonati[j], Abonati[j + 1]);
+                    any_swapped = 1;
                 }
+
+            }
+
+            if (!any_swapped)
+            {
+                break;
             }
         }
 
@@ -503,12 +513,20 @@ void sort_by_montly_payment(Subscribers* Abonati, int& existingSubscribers)
 {
     for (int i = 0; i < existingSubscribers - 1; i++)
     {
+        bool any_swapped = 0;
+
         for (int j = 0; j < existingSubscribers - i - 1; j++)
         {
             if (Abonati[j].monthlyPrice > Abonati[j + 1].monthlyPrice)
             {
                 swap(Abonati[j], Abonati[j + 1]);
+                any_swapped = 1;
             }
+        }
+
+        if (!any_swapped)
+        {
+            break;
         }
     }
 }
@@ -703,13 +721,19 @@ void two_year_name_search(Subscribers* Abonati, int& existingSubscribers)
     {
         for (int j = 0; j < copy_size; j++)
         {
+            bool any_swapped = 0;
+
             for (int k = 0; k < copy_size - j - 1; k++)
             {
                 if (AbonatiCopy[k].subscriberName[0] > AbonatiCopy[k + 1].subscriberName[0])
                 {
                     swap(AbonatiCopy[k], AbonatiCopy[k + 1]);
+                    any_swapped = 1;
                 }
             }
+
+            if (!any_swapped)
+                break;
         }
     }
 
