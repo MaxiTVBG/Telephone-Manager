@@ -24,6 +24,7 @@
     <ProjectGuid>{a3d79325-35b0-4d70-b0a2-13db53d2b293}</ProjectGuid>
     <RootNamespace>TelephoneSubs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>TelephoneManager</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
